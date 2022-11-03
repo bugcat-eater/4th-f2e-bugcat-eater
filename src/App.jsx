@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
-import Block1Banner from './components/block1Banner'
+import Navbar from './components/block1banner/main'
+import Block1Banner from "./components/block1banner/main"
 import Block2Question from './components/block2Question'
 import Block3BreakQuestion from './components/block3BreakQuestion'
 import Block4Solution from './components/block4Solution'
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <Block1Banner />
+      <Navbar />
       <Block2Question />
       <Block3BreakQuestion />
       <Block4Solution />
