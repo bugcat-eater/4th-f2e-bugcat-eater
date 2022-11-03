@@ -6,7 +6,7 @@ import Block2Question from './components/block2Question'
 import Block3BreakQuestion from './components/block3BreakQuestion'
 import Block4Solution from './components/block4Solution'
 import Block5Directions from './components/block5Directions'
-import Block6Award from './components/block6Award'
+import Block6 from './components/block6Award'
 import Block7 from './components/block7Sponsor'
 
 
@@ -21,7 +21,7 @@ function App() {
       <Block3BreakQuestion />
       <Block4Solution />
       <Block5Directions />
-      <Block6Award />
+      <Block6 />
       <Block7 />
     </>
   )
