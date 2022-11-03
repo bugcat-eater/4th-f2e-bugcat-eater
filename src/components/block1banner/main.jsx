@@ -15,7 +15,7 @@ export default function Navbar({ fixed }) {
             <div className="flex justify-center content-center">
               <a
                 className=" block py-1 flex content-center  "
-                href="#"
+                href="#href"
               >
                 <img src={thef2e} className="object-fill h-3 w-24 mt-1 mr-5"></img>
               </a>
