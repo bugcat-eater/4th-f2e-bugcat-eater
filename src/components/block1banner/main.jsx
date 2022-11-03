@@ -1,7 +1,7 @@
 import React from "react";
 import thef2e from "../../assets/The_f2e.png"
 import LeftMemubtn from "./leftMemubtn";
-import RightMenubtn from './rightMenubtn'
+
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
