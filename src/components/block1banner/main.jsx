@@ -54,7 +54,6 @@ export default function Navbar({ fixed }) {
 					>
 						<ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
 							{menuBtnText.map((text, index) => {
-								console.log(123);
 								return <RightMenubtn key={index} text={text} />;
 							})}
 							<li className="nav-item">
