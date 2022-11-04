@@ -9,8 +9,23 @@ export default function Navbar({ fixed }) {
 
 	return (
 		<>
-			<nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-white mb-3 fixed border-solid border-b-2 border-opacity-10 border-gray-900">
-				<div className="border-solid border-gray-900 container px-9 mx-auto flex flex-wrap items-center justify-between">
+			<nav
+				className=" 
+            z-10
+            bg-white
+            fixed
+            w-full
+            flex flex-wrap
+            items-center
+            justify-between
+            py-4  
+            text-gray-500
+            hover:text-gray-700
+            focus:text-gray-700
+            shadow-lg
+            navbar navbar-expand-lg navbar-light"
+			>
+				<div className="border-solid border-gray-900  container px-9 mx-auto flex flex-wrap items-center justify-between ">
 					<div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 						<div className="flex justify-center content-center">
 							<a className=" block py-1 flex content-center  " href="#href">
