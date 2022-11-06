@@ -2,5 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.sponsor > .category-item {
+}
 
+.promotion > .category-item {
+  @apply max-w-xs
+}
 
+.outline_box {
+  @apply outline-2 outline-blue-600 outline p-5 my-5
+}
