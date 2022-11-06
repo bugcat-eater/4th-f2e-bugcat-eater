@@ -63,7 +63,7 @@ export default function Block2Question() {
         {
           squareData.map((value)=>{
             return(
-              <Block2BottomSquare title={value[0]} data={value[1]} />
+              <Block2BottomSquare key={value[0]} title={value[0]} data={value[1]} />
             )
           })
         }
