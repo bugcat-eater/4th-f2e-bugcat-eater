@@ -4,12 +4,13 @@ import block2left2 from "../../assets/block2left2.svg";
 import block2right1 from "../../assets/block2right1.svg";
 import block2right2 from "../../assets/block2right2.svg";
 import Block2BottomSquare from './Block2BottomSquare';
+import "./block2.scss"
 
 export default function Block2Question() {
-  const squareData =[["Total", 1182] ,["Personal",1076],["team",41]]
+  const squareData =[["Total", 1182] ,["Personal",1076],["Team",41]]
   return (
     <div className="h-full w-full ">
-      <section className=" flex justify-center    ">
+      <section className=" flex justify-center pt-20     ">
         <div className=" absolute w-[706px]  top-40 -z-20 bg-white flex justify-between border-4 border-gray-900 border-solid ">
           <div className="absolute -left-72 ">
             <img
@@ -45,10 +46,19 @@ export default function Block2Question() {
             <h1 className="block font-noto text-[88px] font-bold">
               互動式網頁設計
             </h1>
+
+            <div className="container1 mt-7 m-auto w-[500px] text-center">    
+              <div className="progress2 progress-moved p-[5px] rounded-[30px] bg-[#000000] ">
+                <div className="progress-bar2" >
+                </div>                       
+              </div> 
+            </div>
           </div>
+          
         </div>
+        
       </section>
-      <section className=" mt-9 flex justify-center">
+      <section className=" mt-9 flex justify-center ">
         <div className="w-[706px] flex justify-between ">
         {
           squareData.map((value)=>{
