@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/block1banner/main";
 import Block1Banner from "./components/block1banner/main";
-import Block2Question from "./components/block2Question";
+import Block2Question from "./components/block2/main";
 import Block3BreakQuestion from "./components/block3BreakQuestion";
 import Block4Solution from "./components/block4Solution";
 import Block5Directions from "./components/block5Directions";

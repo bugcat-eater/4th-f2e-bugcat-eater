@@ -13,7 +13,7 @@ export default function Navbar({ fixed }) {
         className=" 
             z-10
             bg-white
-            fixed
+            sticky
             w-full
             flex flex-wrap
             items-center
