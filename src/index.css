@@ -12,3 +12,7 @@
 .outline_box {
   @apply outline-2 outline-blue-600 outline p-5 my-5
 }
+.design {
+  -webkit-text-stroke: 4px rgb(0, 0, 0);
+
+}
