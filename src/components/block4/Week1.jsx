@@ -18,7 +18,11 @@ export default function Week1() {
           
         </div>     
       </div>
-      <div>week1 right</div>
+      <div className='w-2/4 bg-[#3A3A3A] relative'>
+        <div className=' s1 border-white border-solid border-2 w-1/5 h-1/2 absolute bottom-0 '></div>
+        <div className=' s2 border-white border-solid border-2 w-1/5 h-1/2 absolute top-1/4 '></div>
+        <div className=' s3 border-white border-solid border-2 w-1/5 h-1/2 absolute top-0 '></div>
+      </div>
     </section>
   )
 }
