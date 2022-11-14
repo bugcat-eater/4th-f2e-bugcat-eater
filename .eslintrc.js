@@ -10,14 +10,14 @@ module.exports = {
   ],
   parser: "@babel/eslint-parser",
   settings: {
-    'import/resolver': {
+    "import/resolver": {
       javascript: {},
       node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
       },
     },
     react: {
-      version: 'detect',
+      version: "detect",
     },
   },
   plugins: ["flowtype"],
