@@ -22,7 +22,6 @@ export default function Block4() {
             start: "top 50%",
             end: "bottom top",
             tooggleActions: "play complete  reverse reset",
-            markers: true,
           },
         })
         .to(".anima", { rotationX: 50, duration: 10 });
