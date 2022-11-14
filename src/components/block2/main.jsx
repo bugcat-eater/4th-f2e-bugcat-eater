@@ -10,7 +10,7 @@ export default function Block2Question() {
   const squareData = [["Total", 1182], ["Personal", 1076], ["Team", 41]]
   return (
     <div className="h-screen w-full ">
-      <section className=" flex justify-center pt-20     ">
+      <section className="flex justify-center pt-20">
         <div className=" absolute w-[706px]  top-40 -z-20 bg-white flex justify-between border-4 border-gray-900 border-solid ">
           <div className="absolute -left-72">
             <img
@@ -58,7 +58,7 @@ export default function Block2Question() {
         </div>
 
       </section>
-      <section className=" mt-9 flex justify-center ">
+      <section className=" mt-9 flex justify-center">
         <div className="w-[706px] flex justify-between ">
           {
             squareData.map((value) => {
