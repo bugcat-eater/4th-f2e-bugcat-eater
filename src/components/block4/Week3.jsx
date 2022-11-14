@@ -15,11 +15,11 @@ export default function Week3() {
           <div className='flex justify-center'>
             <a href="#" className='inline-block mt-[100px] text-center text-[20px] bg-[#3A3A3A] hover:bg-[#FFFF00] hover:text-gray-900 transition duration-500 delay-150 text-white font-bold py-2 px-4 rounded-full font-[600]'>查看關卡細節</a>
           </div>
-          
-        </div>     
+
+        </div>
       </div>
       <div className='w-2/4 bg-[#3A3A3A] relative'>
-        
+
       </div>
     </section>
   )

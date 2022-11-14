@@ -10,14 +10,14 @@ module.exports = {
   ],
   parser: "@babel/eslint-parser",
   settings: {
-    'import/resolver': {
+    "import/resolver": {
       javascript: {},
       node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
       },
     },
     react: {
-      version: 'detect',
+      version: "detect",
     },
   },
   plugins: ["flowtype"],
@@ -30,7 +30,7 @@ module.exports = {
     "jsx-a11y/no-noninteractive-element-interactions": 0,
     "no-console": 0,
     "no-param-reassign": ["error", { props: false }],
-    "react/button-has-type": 0, 
+    "react/button-has-type": 0,
     "react/destructuring-assignment": 0,
     "react/function-component-definition": [
       2,

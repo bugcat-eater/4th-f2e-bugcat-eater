@@ -1,32 +1,51 @@
 @keyframes progressAnimationStrike {
-  from { width: 0 }
-  to   { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes progressAnimation {
-  0%   { width: 5%; background-color: #FFFF00;}
-  100% { width: 100%; background-color: #FFFF00; }
+  0% {
+    width: 5%;
+    background-color: #ffff00;
+  }
+  100% {
+    width: 100%;
+    background-color: #ffff00;
+  }
 }
 @keyframes squeeze {
-	100%   { width: 5%; background-color: #FFFF00;}
-  0% { width: 100%; background-color: #FFFF00; }
+  100% {
+    width: 5%;
+    background-color: #ffff00;
+  }
+  0% {
+    width: 100%;
+    background-color: #ffff00;
+  }
 }
 
 .progress2 {
-  
-  box-shadow: inset 0 1px 2px rgba(4, 4, 4, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(4, 4, 4, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
 }
 .progress-bar2 {
   height: 15px;
   border-radius: 30px;
-  background-image: 
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
-  transition: 0.4s linear;  
-  transition-property: width, background-color;    
-} 
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
 
 .progress-moved .progress-bar2 {
-  width: 100%; 
-  background-color: #FFFF00;  
+  width: 100%;
+  background-color: #ffff00;
   animation: progressAnimation 4s infinite ease-in-out;
 }

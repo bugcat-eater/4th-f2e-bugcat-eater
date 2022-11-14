@@ -7,8 +7,8 @@ import Block2BottomSquare from './Block2BottomSquare';
 import "./block2.scss"
 
 export default function Block2Question() {
-  const squareData =[["Total", 1182] ,["Personal",1076],["Team",41]]
-  return ( 
+  const squareData = [["Total", 1182], ["Personal", 1076], ["Team", 41]]
+  return (
     <div className="h-screen w-full ">
       <section className=" flex justify-center pt-20     ">
         <div className=" absolute w-[706px]  top-40 -z-20 bg-white flex justify-between border-4 border-gray-900 border-solid ">
@@ -47,27 +47,27 @@ export default function Block2Question() {
               互動式網頁設計
             </h1>
 
-            <div className="container1 mt-7 m-auto w-[500px] text-center">    
+            <div className="container1 mt-7 m-auto w-[500px] text-center">
               <div className="progress2 progress-moved p-[5px] rounded-[30px] bg-[#000000] ">
                 <div className="progress-bar2" >
-                </div>                       
-              </div> 
+                </div>
+              </div>
             </div>
           </div>
-          
+
         </div>
-        
+
       </section>
       <section className=" mt-9 flex justify-center ">
         <div className="w-[706px] flex justify-between ">
-        {
-          squareData.map((value)=>{
-            return(
-              <Block2BottomSquare key={value[0]} title={value[0]} data={value[1]} />
-            )
-          })
-        }
-        
+          {
+            squareData.map((value) => {
+              return (
+                <Block2BottomSquare key={value[0]} title={value[0]} data={value[1]} />
+              )
+            })
+          }
+
         </div>
       </section>
     </div>
